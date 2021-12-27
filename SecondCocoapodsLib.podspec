@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SecondCocoapodsLib'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'This is second project dummy pod description. This is new paragraphs just a dumb para.'
 
 # This description is used to generate tags and improve search results.
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Tabish Gul' => 'tabish.gul@ili.digital' }
-  s.source           = { :git => 'https://github.com/tabishilidigital/SecondCocoapodsLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/tabishilidigital/SecondCocoapodsLib.git', :branch => "master" }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.swift_version = "5.0"

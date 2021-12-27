@@ -1,9 +1,9 @@
 {
   "name": "SecondCocoapodsLib",
-  "version": "0.1.0",
-  "summary": "A short description of SecondCocoapodsLib.",
+  "version": "0.1.1",
+  "summary": "This is second project dummy pod description. This is new paragraphs just a dumb para.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Tabish Gul/SecondCocoapodsLib",
+  "homepage": "https://github.com/tabishilidigital/SecondCocoapodsLib",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,13 @@
     "Tabish Gul": "tabish.gul@ili.digital"
   },
   "source": {
-    "git": "https://github.com/Tabish Gul/SecondCocoapodsLib.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/tabishilidigital/SecondCocoapodsLib.git",
+    "branch": "master"
   },
+  "swift_versions": "5.0",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "SecondCocoapodsLib/Classes/**/*"
+  "source_files": "SecondCocoapodsLib/Classes/**/*",
+  "swift_version": "5.0"
 }
