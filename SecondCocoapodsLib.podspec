@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SecondCocoapodsLib'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'This is second project dummy pod description. This is new paragraphs just a dumb para.'
 
 # This description is used to generate tags and improve search results.
@@ -33,9 +33,9 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'SecondCocoapodsLib/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SecondCocoapodsLib' => ['SecondCocoapodsLib/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'Resources' => ['SecondCocoapodsLib/Assets/snoker.jpeg']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
