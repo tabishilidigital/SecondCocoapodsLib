@@ -1,0 +1,6 @@
+framework module SecondCocoapodsLib {
+  umbrella header "SecondCocoapodsLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

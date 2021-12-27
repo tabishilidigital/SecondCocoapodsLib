@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0BB566F67A1C81E0CBCBDC28 /* SecondCocoapodsLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SecondCocoapodsLib.podspec; path = ../SecondCocoapodsLib.podspec; sourceTree = "<group>"; };
+		0BB566F67A1C81E0CBCBDC28 /* SecondCocoapodsLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SecondCocoapodsLib.podspec; path = ../SecondCocoapodsLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		265C289BA4CF8E3CEA221088 /* Pods-SecondCocoapodsLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondCocoapodsLib_Example.debug.xcconfig"; path = "Target Support Files/Pods-SecondCocoapodsLib_Example/Pods-SecondCocoapodsLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		382EE63326C83194146AA412 /* Pods_SecondCocoapodsLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondCocoapodsLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3B151F7EEDA60ABC2CEFB92B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3B151F7EEDA60ABC2CEFB92B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3E3582C184B9EF536ADD9F13 /* Pods-SecondCocoapodsLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondCocoapodsLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SecondCocoapodsLib_Tests/Pods-SecondCocoapodsLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* SecondCocoapodsLib_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecondCocoapodsLib_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		607FACE51AFB9204008FA782 /* SecondCocoapodsLib_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SecondCocoapodsLib_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		7E17BF5918363CE2CEE0E77F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		7E17BF5918363CE2CEE0E77F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8F93077E8E4A0811790C74A7 /* Pods_SecondCocoapodsLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SecondCocoapodsLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBDA3E28B856FFCA0BA7382 /* Pods-SecondCocoapodsLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondCocoapodsLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-SecondCocoapodsLib_Tests/Pods-SecondCocoapodsLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		E5F5F74504AA94818C4AA10A /* Pods-SecondCocoapodsLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SecondCocoapodsLib_Example.release.xcconfig"; path = "Target Support Files/Pods-SecondCocoapodsLib_Example/Pods-SecondCocoapodsLib_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -77,7 +77,6 @@
 				3E3582C184B9EF536ADD9F13 /* Pods-SecondCocoapodsLib_Tests.debug.xcconfig */,
 				BFBDA3E28B856FFCA0BA7382 /* Pods-SecondCocoapodsLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

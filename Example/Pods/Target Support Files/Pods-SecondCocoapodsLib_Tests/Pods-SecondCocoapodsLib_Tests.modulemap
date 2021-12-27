@@ -1,0 +1,6 @@
+framework module Pods_SecondCocoapodsLib_Tests {
+  umbrella header "Pods-SecondCocoapodsLib_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
