@@ -1,6 +1,6 @@
 {
   "name": "SecondCocoapodsLib",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "summary": "This is second project dummy pod description. This is new paragraphs just a dumb para.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/tabishilidigital/SecondCocoapodsLib",
@@ -13,7 +13,8 @@
   },
   "source": {
     "git": "https://github.com/tabishilidigital/SecondCocoapodsLib.git",
-    "branch": "master"
+    "branch": "master",
+    "tag": "0.1.2"
   },
   "swift_versions": "5.0",
   "platforms": {
