@@ -14,4 +14,8 @@ public class Logger {
     public func testFunc() {
         print("Hello World")
     }
+    
+    public func testFunc1() {
+        print("Hell Hell Hello")
+    }
 }

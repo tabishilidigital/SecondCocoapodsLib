@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SecondCocoapodsLib'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'This is second project dummy pod description. This is new paragraphs just a dumb para.'
 
 # This description is used to generate tags and improve search results.
